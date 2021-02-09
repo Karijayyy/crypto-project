@@ -7,4 +7,4 @@
 
 // functions
 
-//
+// click event & console log api data 
