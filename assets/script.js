@@ -10,12 +10,12 @@
 // click event & console log api data
 var x = document.createElement("BUTTON");
 
-function getCryptoPrices(searchValue) {
+function getCryptoPrices() {
   fetch("https://api.coindesk.com/v1/bpi/currentprice.json")
     .then((response) => response.json())
     .then((data) => {
-      console.log(searchValue);
+      console.log(data);
     });
 }
-getCryptoPrices("list prices");
+getCryptoPrices();
 $(".test-button").click(console.log("hello"));
