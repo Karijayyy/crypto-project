@@ -58,6 +58,7 @@ function getCryptoPrices() {
       console.log(data);
       let getCryptoPriceNow = data.rates.BCH
       $("#bitcoinCash").text(getCryptoPriceNow)
+
     });
 }
 getCryptoPrices();
