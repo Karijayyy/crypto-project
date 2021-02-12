@@ -58,6 +58,50 @@ function getCryptoPrices() {
       console.log(data);
       let getCryptoPriceNow = data.rates.BCH
       $("#bitcoinCash").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#ethereum").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#xrp").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#stellarLumens").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#compound").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#polkadot").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#litecoin").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#dogecoin").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#cosmos").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#veChain").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#cardano").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#dash").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#chainlink").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#balancer").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#eos").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#solana").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#tron").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#nano").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#filecoin").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#decred").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#digibyte").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#nem").text(getCryptoPriceNow)
+      let getCryptoPriceNow = data.rates.BCH
+      $("#neo").text(getCryptoPriceNow)
     });
 }
 getCryptoPrices();
