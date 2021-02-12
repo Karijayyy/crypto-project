@@ -58,6 +58,7 @@ function getCryptoPrices() {
       console.log(data);
       let getCryptoPriceNow = data.rates.BCH
       $("#bitcoinCash").text(getCryptoPriceNow)
+<<<<<<< HEAD
       let getCryptoPriceNow = data.rates.BCH
       $("#ethereum").text(getCryptoPriceNow)
       let getCryptoPriceNow = data.rates.BCH
@@ -102,6 +103,9 @@ function getCryptoPrices() {
       $("#nem").text(getCryptoPriceNow)
       let getCryptoPriceNow = data.rates.BCH
       $("#neo").text(getCryptoPriceNow)
+=======
+
+>>>>>>> 451d28223f6758709fe0c7356957d0e46d12ea25
     });
 }
 getCryptoPrices();
