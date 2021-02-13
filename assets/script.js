@@ -58,54 +58,60 @@ function getCryptoPrices() {
       console.log(data);
       let getCryptoPriceNow = data.rates.BCH
       $("#bitcoinCash").text(getCryptoPriceNow)
-<<<<<<< HEAD
-      let getCryptoPriceNow = data.rates.BCH
-      $("#ethereum").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#xrp").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#stellarLumens").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#compound").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#polkadot").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#litecoin").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#dogecoin").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#cosmos").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#veChain").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#cardano").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#dash").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#chainlink").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#balancer").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#eos").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#solana").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#tron").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#nano").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#filecoin").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#decred").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#digibyte").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#nem").text(getCryptoPriceNow)
-      let getCryptoPriceNow = data.rates.BCH
-      $("#neo").text(getCryptoPriceNow)
-=======
 
->>>>>>> 451d28223f6758709fe0c7356957d0e46d12ea25
+      let getEthereumPriceNow = data.rates.ETH
+      $("#ethereum").text(getEthereumPriceNow)
+
+      let getXrpPriceNow = data.rates.XRP
+      $("#xrp").text(getXrpPriceNow)
+
+      let getStellarPriceNow = data.rates.XLM
+      $("#stellarLumens").text(getStellarPriceNow)
+
+      let getBinancePriceNow = data.rates.BNB
+      $("#binanceCoin").text(getBinancePriceNow)
+
+      let getZilliqaPriceNow = data.rates.ZIL
+      $("#zilliqa").text(getZilliqaPriceNow)
+
+      let get0XPriceNow = data.rates.ZRX
+      $("#0X").text(get0XPriceNow)
+
+      let getTezosPriceNow = data.rates.XTZ
+      $("#tezos").text(getTezosPriceNow)
+
+      let getIconPriceNow = data.rates.ICX
+      $("#icon").text(getIconPriceNow)
+
+      let getLiteCoinPriceNow = data.rates.LTC
+      $("#liteCoin").text(getLiteCoinPriceNow)
+
+      let getCardanoPriceNow = data.rates.ADA
+      $("#cardano").text(getCardanoPriceNow)
+
+      let getDashPriceNow = data.rates.DASH
+      $("#dash").text(getDashPriceNow)
+
+      let getChainPriceNow = data.rates.LINK
+      $("#chainLink").text(getChainPriceNow)
+
+      let getZCashPriceNow = data.rates.ZEC
+      $("#zCash").text(getZCashPriceNow)
+
+      let getTronPriceNow = data.rates.TRX
+      $("#tron").text(getTronPriceNow)
+
+      let getDecredPriceNow = data.rates.DCR
+      $("#decred").text(getDecredPriceNow)
+
+      let getDigibytePriceNow = data.rates.DGB
+      $("#digiByte").text(getDigibytePriceNow)
+
+      let getNemPriceNow = data.rates.XEM
+      $("#nem").text(getNemPriceNow)
+
+      let getNeoPriceNow = data.rates.NEO
+      $("#neo").text(getNeoPriceNow)
     });
 }
 getCryptoPrices();
