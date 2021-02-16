@@ -10,7 +10,7 @@ function getBitcoinPrice() {
 getBitcoinPrice();
 $(".test-button").click(console.log("hello bitcoin"));
 function getCryptoPrices() {
-  fetch("https://api.coinlayer.com/api/live?access_key=8bab17ed8bc64ebebd3b1dbe4ad46a98")
+  fetch("http://api.coinlayer.com/api/live?access_key=c8161722e378795e95d56620012c3b01")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
